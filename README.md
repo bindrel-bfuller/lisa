@@ -24,6 +24,14 @@ folder of plain files that you own.
 - **Shows where you stand.** Progress, quiz results and session summaries appear
   as cards in the chat.
 
+## Standards
+
+Lisa's topic lists are its own, organized with reference to published standards:
+the National Standards for Personal Financial Education (2021), the Common Core
+State Standards for Mathematics, and AI4K12's Five Big Ideas in AI. Lisa is not
+affiliated with or endorsed by their publishers (the Council for Economic
+Education and Jump$tart; the NGA Center and CCSSO; the AI4K12 Initiative).
+
 ## What you need
 
 - Windows with [Claude Desktop](https://claude.ai/download), signed in.
