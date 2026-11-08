@@ -1,8 +1,9 @@
 # Lisa
 
-Lisa is a personal tutor that runs inside Claude Desktop. You name something you
-want to learn, and Lisa builds a course on it. Then it teaches you one session at
-a time, quizzes you, and brings back what you missed until you have it.
+Lisa is a personal learning assistant you work with inside Claude Desktop. You
+name something you want to learn, and Lisa builds a course on it. Then she teaches
+you one session at a time, quizzes you, and brings back what you missed until you
+have it.
 
 Your courses and your record of what you know stay on your own computer, in a
 folder of plain files that you own.
@@ -10,12 +11,12 @@ folder of plain files that you own.
 **Status:** an early release (v0.1), tested on Windows. Feedback is very welcome
 (see below).
 
-## What it does
+## What she does
 
 - **Builds a course from a topic.** Name any topic, or ask for some ideas. Lisa
   lays out units and lessons in teaching order. Topics in Personal Finance,
-  Artificial Intelligence and Mathematics are mapped to published standards. Any
-  other topic works too.
+  Artificial Intelligence and Mathematics are placed on her own topic list,
+  organized with an eye toward published standards. Any other topic works too.
 - **Teaches, then checks.** Each lesson ends with a short quiz. Lisa's server
   scores every answer, not the chat, and records it as evidence.
 - **Reviews on a schedule.** A miss comes back the next day. A topic you know
@@ -26,7 +27,7 @@ folder of plain files that you own.
 
 ## Standards
 
-Lisa's topic lists are its own, organized with reference to published standards:
+Lisa's topic lists are her own, organized with an eye toward published standards:
 the National Standards for Personal Financial Education (2021), the Common Core
 State Standards for Mathematics, and AI4K12's Five Big Ideas in AI. Lisa is not
 affiliated with or endorsed by their publishers (the Council for Economic
@@ -60,13 +61,14 @@ Education and Jump$tart; the NGA Center and CCSSO; the AI4K12 Initiative).
 
    If `py` is not found, run `python setup.py` instead. Don't double-click
    `setup.py`: its window closes before you can read what it says.
-4. Quit Claude Desktop fully, from the system tray too, and open it again.
+4. Quit Claude Desktop fully: close its window, then right-click Claude's icon in
+   the system tray, near the clock, and choose **Exit**. Then open it again.
 5. In a new chat, open the **+** menu and pick Lisa's **Set up** prompt.
 
 To upgrade, extract the new release over the same folder and run `py setup.py`
 again. Your courses and record are kept.
 
-## Using it
+## Working with Lisa
 
 Lisa's prompts are in the **+** menu of a new chat:
 
