@@ -87,14 +87,15 @@ After the first prompt, plain words work too: "keep going", "how am I doing?",
 
 - **Your record stays on your computer.** Lisa keeps your courses, lessons,
   questions and record of answers in `%USERPROFILE%\Lisa`, as plain JSON and
-  Markdown files. Lisa sends nothing from them anywhere.
+  Markdown files. Lisa sends nothing over the network.
 - **No account, no tracking.** Lisa has no sign-up of her own and collects no
   usage data.
 - **The chat goes to Claude.** As in any Claude conversation, what you and Lisa
-  say in the chat, including the lessons and your answers, goes to Anthropic
-  under your Claude account's terms and privacy settings.
+  say in the chat, including the lessons, your answers and what she shows
+  from your record, goes to Anthropic under your Claude account's terms and
+  privacy settings.
 - **You can erase it.** Delete the `%USERPROFILE%\Lisa` folder to remove your
-  courses and record. Lisa keeps no other copy.
+  courses and record. Lisa keeps no other copy; your past chats stay in Claude.
 - **Feedback is public.** Posts in Discussions can be read by anyone, so leave
   out anything personal.
 
