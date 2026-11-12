@@ -101,7 +101,7 @@ After the first prompt, plain words work too: "keep going", "how am I doing?",
 
 ## Feedback
 
-Start with the pinned [Feedback thread](https://github.com/bindrel-bfuller/lisa/discussions/PINNED).
+Start with the pinned [Feedback thread](https://github.com/bindrel-bfuller/lisa/discussions/5).
 Bugs, confusing moments, bad questions and ideas are all useful. Pick **Send
 feedback** from the + menu, and Lisa helps you write it up.
 
