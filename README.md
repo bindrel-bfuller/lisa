@@ -36,6 +36,8 @@ Education and Jump$tart; the NGA Center and CCSSO; the AI4K12 Initiative).
 ## What you need
 
 - Windows with [Claude Desktop](https://claude.ai/download), signed in.
+- A Claude plan. Lisa is tested on Claude Pro. The Free plan is untested, and its
+  usage limits may cut a session short.
 - Python 3.11 or later, from [python.org](https://www.python.org/downloads/) or
   the Microsoft Store.
 
@@ -81,15 +83,34 @@ Lisa's prompts are in the **+** menu of a new chat:
 After the first prompt, plain words work too: "keep going", "how am I doing?",
 "that question is bad".
 
-## Your data
+## Privacy
 
-Lisa keeps everything in `%USERPROFILE%\Lisa`: your courses, lessons, questions
-and record of answers. The files are plain JSON and Markdown, and nothing in
-them is sent anywhere by Lisa. As with any Claude conversation, what you and
-Lisa say in the chat goes to Claude.
+- **Your record stays on your computer.** Lisa keeps your courses, lessons,
+  questions and record of answers in `%USERPROFILE%\Lisa`, as plain JSON and
+  Markdown files. Lisa sends nothing over the network.
+- **No account, no tracking.** Lisa has no sign-up of her own and collects no
+  usage data.
+- **The chat goes to Claude.** As in any Claude conversation, what you and Lisa
+  say in the chat, including the lessons, your answers and what she shows
+  from your record, goes to Anthropic under your Claude account's terms and
+  privacy settings.
+- **You can erase it.** Delete the `%USERPROFILE%\Lisa` folder to remove your
+  courses and record. Lisa keeps no other copy; your past chats stay in Claude.
+- **Feedback is public.** Posts in Discussions can be read by anyone, so leave
+  out anything personal.
 
 ## Feedback
 
-Pick **Send feedback** from the + menu, and Lisa helps you write it up. Then
-post it in [Discussions](https://github.com/bindrel-bfuller/lisa/discussions).
-Bugs, confusing moments, bad questions and ideas are all useful.
+Start with the pinned [Feedback thread](https://github.com/bindrel-bfuller/lisa/discussions/5).
+Bugs, confusing moments, bad questions and ideas are all useful. Pick **Send
+feedback** from the + menu, and Lisa helps you write it up.
+
+No GitHub account? Send it as a message to
+[What's Known on LinkedIn](https://www.linkedin.com/company/whatsknown).
+
+## License
+
+Lisa is free for personal use and other noncommercial purposes under the
+[PolyForm Noncommercial License 1.0.0](LICENSE). Using Lisa in a business,
+including a company trial, needs written permission: ask through LinkedIn
+(above).
